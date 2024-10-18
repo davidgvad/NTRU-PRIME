@@ -40,7 +40,7 @@ The **NTRU** project is a Python implementation of the NTRU cryptosystem, a latt
     pip install -r requirements.txt
     ```
 
-## Usage
+## Usage within CLI
 
 ## Key Generation
 Generate a pair of public and private keys.
