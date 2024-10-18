@@ -55,4 +55,6 @@ python scripts/ntru.py enc PUB_KEY_FILE.npz "your_message.txt" > "encrypted_mess
 ```bash
 python scripts/ntru.py dec PRIV_KEY_FILE.npz "encrypted_message.txt" > "decrypted_message.txt"
 ```
-## P.S. However, one of the main points of the current implementation is to use GUI instead of CLI
+## Additional information
+Currently, the implementation is designed to favor the use of a graphical user interface (GUI) for encrypting and decrypting operations. Users are recommended to utilize the GUI method provided for a more intuitive and user-friendly experience, rather than the command-line interface (CLI) method.
+
