@@ -55,3 +55,4 @@ python scripts/ntru.py enc PUB_KEY_FILE.npz "your_message.txt" > "encrypted_mess
 ```bash
 python scripts/ntru.py dec PRIV_KEY_FILE.npz "encrypted_message.txt" > "decrypted_message.txt"
 ```
+## P.S. However, one of the main points of the current implementation is to use GUI instead of CLI
