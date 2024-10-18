@@ -1,8 +1,8 @@
 # NTRU Cryptosystem Implementation
 
-![License](https://img.shields.io/github/license/yourusername/ntru)
+![License](https://img.shields.io/github/license/davidgvad/NTRU-PRIME)
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
-![Build Status](https://img.shields.io/github/actions/workflow/status/yourusername/ntru/python-app.yml?branch=main)
+![Build Status](https://img.shields.io/github/workflow/status/davidgvad/NTRU-PRIME/NameOfYourWorkflowFile?branch=main)
 
 ## Table of Contents
 - [Description](#description)
