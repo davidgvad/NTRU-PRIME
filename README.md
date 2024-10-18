@@ -8,7 +8,7 @@
 - [Description](#description)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage within CLI](#usage)
+- [Usage](#usage)
 
 ## Description
 The **NTRU** project is a Python implementation of the NTRU cryptosystem, a lattice-based public key cryptosystem known for its efficiency in encryption and decryption processes. This implementation offers functionalities for key generation, encryption, and decryption, ensuring secure communication based on sophisticated mathematical constructs. Key improvements in this version include the ability to handle large messages, which was a limitation in previous implementations. Additionally, this version boasts a significantly more user-friendly interface, thanks to a well-designed GUI built with PyQt5.
@@ -40,7 +40,7 @@ The **NTRU** project is a Python implementation of the NTRU cryptosystem, a latt
     pip install -r requirements.txt
     ```
 
-## Usage within CLI
+## Usage
 
 ## Key Generation
 Generate a pair of public and private keys.
@@ -56,5 +56,5 @@ python scripts/ntru.py enc PUB_KEY_FILE.npz "your_message.txt" > "encrypted_mess
 python scripts/ntru.py dec PRIV_KEY_FILE.npz "encrypted_message.txt" > "decrypted_message.txt"
 ```
 ## Additional information
-Currently, the implementation is designed to favor the use of a graphical user interface (GUI) for encrypting and decrypting operations. Users are recommended to utilize the GUI method provided for a more intuitive and user-friendly experience, rather than the command-line interface (CLI) method.
+The above generation of the keys uses the CLI. However, the implementation is designed to favor the use of a graphical user interface (GUI) for encrypting and decrypting operations. Users are recommended to utilize the GUI method provided for a more intuitive and user-friendly experience, rather than the command-line interface (CLI) method.
 
