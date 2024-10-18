@@ -46,4 +46,12 @@ The **NTRU** project is a Python implementation of the NTRU cryptosystem, a latt
 Generate a pair of public and private keys.
 ```bash
 python scripts/ntru.py gen 167 3 128 PRIV_KEY_FILE.npz PUB_KEY_FILE.npz
+```
+## Message Encryption
 ```bash
+python scripts/ntru.py enc PUB_KEY_FILE.npz "your_message.txt" > "encrypted_message.txt"
+```
+## Message Decryption
+```bash
+python scripts/ntru.py dec PRIV_KEY_FILE.npz "encrypted_message.txt" > "decrypted_message.txt"
+```
