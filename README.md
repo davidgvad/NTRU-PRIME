@@ -25,7 +25,7 @@ The **NTRU** project is a Python implementation of the NTRU cryptosystem, a latt
 ## Installation
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/yourusername/ntru.git
+    git clone https://github.com/davidgvad/ntru.git
     cd ntru
     ```
 
